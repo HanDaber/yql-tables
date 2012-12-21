@@ -8,7 +8,7 @@
   <bindings>
     <select itemPath="" produces="XML">
       <urls>
-        <url>http://{location}.craigslist.org/search/{type}?format=rss&minAsk={min}&maxAsk={max}&query={query}</url>
+        <url>http://{location}.craigslist.org/search/{type}?format=rss&srchType=T&minAsk={min}&maxAsk={max}&query={query}</url>
       </urls>
       <inputs>
         <key id="location" type="xs:string" paramType="path" required="true" />
