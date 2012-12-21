@@ -13,8 +13,8 @@
       <inputs>
         <key id="location" type="xs:string" paramType="path" required="true" />
         <key id="type" type="xs:string" paramType="path" required="true" />
-        <key id="min" type="xs:string" paramType="path" required="false" />
-        <key id="max" type="xs:string" paramType="path" required="false" />
+        <key id="min" type="xs:string" paramType="query" required="false" />
+        <key id="max" type="xs:string" paramType="query" required="false" />
         <key id="query" type="xs:string" paramType="query" required="true" />
       </inputs>
     </select>
